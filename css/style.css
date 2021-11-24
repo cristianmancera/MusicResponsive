@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 98.9vw;
+    height: 50vw;
+    background-image: url(../images/angel-jimenez.jpg);
+    background-size: 100vw;
+    padding: 0 0 0 0;
+}
+
+.box{
+    width: 25%;
+    padding: 17% 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.box h1{
+    font-weight: 1;
+    font-size: 10vw;
+}
+.cajon1{
+    width: 75%;
+    height: 50vw;
+    margin:40px auto;
+    color: black;
+}
+.cajon2{
+    width: 75%;
+    height: 40vw;
+    margin:40px auto 0 auto;
+    color: black;
+}
+.caja1{
+    float: left;
+    width: 50%;
+    padding-top: 10%;
+}
+.caja1 p{
+    color: rgb(32, 32, 32);
+    font-size: 1vw;
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 190%;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.caja1 h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 4vw;
+    padding-left: 3%;
+}
+.h2rosa{
+    display: block;
+    width: 45%;
+    background: linear-gradient(45deg, rgb(250, 74, 84), rgb(218, 1, 112));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.caja2 img{
+    width: 100%;
+    padding-left: 0;
+}
+.caja2{
+    float: right;
+    width: 50%;
+}
+.caja1b{
+    float: left;
+    width: 40%;
+    padding-bottom:8% ;
+}
+.caja2b{
+    float: right;
+    width: 55%;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+.caja2b p{
+    color: rgb(32, 32, 32);
+    font-size: 1vw;
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 190%;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.caja2b h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 3vw;
+    padding-left: 3%;
+}
+.caja1b img{
+    width: 100%;
+}
+.boton{
+    margin-top: 5%;
+    width: 38%;
+    padding:4% 0 3.5% 0;
+    font-size: 1vw;
+    background-color: rgb(253, 76, 92);
+    color: white;
+    border: none;
+    border-radius: 70px;
+}
+.boton2{
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 38%;
+    padding:4% 0 3.5% 0;
+    font-size: 1vw;
+    background-color: rgb(253, 76, 92);;
+    color: white;
+    border: none;
+    border-radius: 70px;
+}
+.cajon3{
+    background-image: url(../images/john-raptis.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    height: 40vw;
+}
+.caja1c{
+    padding-top: 5%;
+    float: right;
+    width: 45%;
+    padding-left: 5%;
+}
+.caja1c p{
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 190%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+}
+.caja1c h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    font-size: 3vw;
+    padding-left: 3%;
+}
+.boton3{
+    margin-left: 3%;
+    margin-bottom: 5%;
+    width: 32%;
+    padding:3% 0 3% 0;
+    font-size: 1vw;
+    background-color: rgb(253, 76, 92);;
+    color: white;
+    border: none;
+    border-radius: 70px;
+}
+.clear1{
+    clear: both;
+    padding-bottom: 20px;
+}
+footer{
+    background: linear-gradient(130deg, rgb(250, 74, 84)30%, rgb(254, 46, 92));
+    margin: 0;
+    padding: 0;
+}
+footer p{
+    font-size: 0.8vw;
+    color: white;
+}
+.fotersote1{
+    padding-top: 4%;
+    padding-left:10% ;
+    padding-bottom: 2%;
+    width:25%;
+    float: left;
+    margin: 0;
+}
+.fot1{
+    padding: 10% 0% 5% 15%;
+    float: left;
+    width: 27%;
+}
+.fot1 p{
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 200%;
+}
+.fot2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    padding: 10% 0 5% 20%;
+    float: right;
+    width: 27%;
+}
+.fot2 p{
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 200%;
+}
+.fotersote2{
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right:35% ;
+    padding-bottom: 3%;
+    width: 25%;
+    float: right;
+    margin: 0;
+}
+.fot3{
+    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-left: 15%;
+    float: left;
+    width: 25%;
+}
+.fot3 p{
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 200%;
+}
+.fot4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-left: 15%;
+    float: right;
+    width: 25%;
+}
+.fot4 p{
+    color: rgb(231, 231, 231);
+    font-weight: 500;
+    font-family:'Open Sans', sans-serif;
+    line-height: 200%;
+}
+.espacio1{
+    padding-bottom: 15%;
+}
+.fotultimo{
+    border-top: white solid 0.9px;
+    width: 70%;
+    margin-left: 13.5%;
+    margin-right: 30%;
+    padding-bottom: 3%;
+    padding-top:2%;
+}
+.textultim1{
+    width: 30%;
+    float: left;
+}
+.textultim2{
+    width:15%;
+    float: right;
+}
+@media(max-width:576px) {
+    html{
+        width: 99%;
+    }
+    .caja1 p, .caja2b p, .caja1c p{
+        font-size: 3vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+    .caja1{
+        padding-top: 0;
+    }
+    .caja1b{
+        padding: 10% 0 0 0;
+    }
+    .cajon1, .cajon2{
+        width: 95%;
+        height: 50vw;
+        margin:40px auto;
+        color: black;
+    }
+    .caja1c{
+        width: 90%;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .cajon3{
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+    .boton, .boton2, .boton3{
+        width: 32%;
+        font-size: 8px;
+        background-color: rgb(253, 76, 92);;
+        color: white;
+        border: none;
+        border-radius: 70px;
+    }
+    .fotersote2{
+        padding-right: 30%;
+    }
+}
+
+@media(max-width:750px) {
+    header{
+        width: 100%;
+        background-image: url(../images/angel-jimenez.jpg);
+        background-size: cover;
+        padding: 0 0 0 0;
+    }
+    .caja1 p, .caja2b p, .caja1c p{
+        font-size: 2vw;
+    }
+    footer p{
+        font-size: 1.5vw;
+    }
+    .caja1{
+        padding-top: 0;
+    }
+    .caja1b{
+        padding: 10% 0 0 0;
+    }
+    .cajon1, .cajon2{
+        width: 95%;
+        height: 50vw;
+        margin:40px auto;
+        color: black;
+    }
+    .caja1c{
+        width: 90%;
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .cajon3{
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .boton, .boton2, .boton3{
+        width: 32%;
+        font-size: 8px;
+        background-color: rgb(253, 76, 92);;
+        color: white;
+        border: none;
+        border-radius: 70px;
+    }
+    .fotersote2{
+        padding-right: 30%;
+    }
+}
